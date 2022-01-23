@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>AcadaLearning- Home Page</title>
-<link href="images/mylandmarklog.png" rel="icon">
+<link href="images/mylandmarlog.png" rel="icon">
 </head>
 </head>
 <body>
@@ -30,7 +30,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="images/mylandmarklog.png" alt="" width="150">
+		<img src="images/mylandmarlog.png" alt="" width="150">
 	</span>
 	<span style="font-weight: bold;">
                 Acada Learning, 
