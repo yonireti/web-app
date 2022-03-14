@@ -1,7 +1,7 @@
 node{
     def MHD = tool name: "maven3.8.4"
     stage('code'){
-        git branch: 'development', url: 'https://github.com/LandmakTechnology/web-app'
+        git branch: 'development', url: 'https://github.com/team16flight/web-app.git'
     }
     stage('BUILD'){
        sh "${MHD}/bin/mvn clean package"
@@ -16,7 +16,7 @@ node{
 stage('email'){
 emailext body: '''Build is over
 
-Landmark
+Acada
 437212483''', recipientProviders: [developers(), requestor()], subject: 'Build', to: 'tdapp@gmail.com'
 }
     */
