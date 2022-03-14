@@ -5,7 +5,7 @@ node{
     sh "echo Start of td deployment"
     }
     stage('2.CloneCode'){
-    git branch: 'stage', credentialsId: 'GitHubCredentials', url: 'https://github.com/LandmakTechnology/web-app'
+    git branch: 'stage', credentialsId: 'GitHubCredentials', url: 'https://github.com/team16flight/web-app.git'
     }
     stage('3.buildMaven'){
     sh "${MHD}/bin/mvn package"
